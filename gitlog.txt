@@ -1,0 +1,981 @@
+commit a40b1be7c795e27212dd881821fdffe94298e8a8
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 20 14:26:01 2022 +1100
+
+    added final comments and tidying
+
+commit b0ba99cb8ed1b54eb21f6aca585f7d9f300939ac
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 16:20:27 2022 +1100
+
+    fixed right-most column boundary check error
+
+commit a9f876c88fee8b70d7983028f7a223865250c393
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 16:14:05 2022 +1100
+
+    streamlined list deconstructor and added board list to load function
+
+commit 70f6e30f6bf67310305c24e004fce33d821fde42
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 08:25:14 2022 +1100
+
+    fixed boundary conditions in checkValid()
+
+commit e74f6d14dcab5ad835723e4d48aaa1f7aeee119e
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 07:55:41 2022 +1100
+
+    increased minimum board dimensions to prevent segmentation faults
+
+commit 9895ec9fd4d89f8795cbe7e20e72f3455a9b5f36
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 06:21:32 2022 +1100
+
+    fixed deconstructor and moved played tiles to 'boardList'
+
+commit c3d91803119a9633c904799bffd344317f59ec4a
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 05:55:09 2022 +1100
+
+    fixed column zero error
+
+commit 77f048e77dea066e07dfe31ee39298e59af4929e
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 03:02:11 2022 +1100
+
+    implemented AI
+
+commit d03ee220afc97486b7693aa27d33864feae7b313
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 02:09:30 2022 +1100
+
+    capitalised 'Qwirkle'
+
+commit bf8a3d3175f8beca891358bf67cc948b6609e95c
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 02:08:52 2022 +1100
+
+    temp commit to capitalise 'Qwirkle'
+
+commit 9d4d1c9fc1e7281bd345ef516c7007efe116c23d
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 02:07:22 2022 +1100
+
+    implemented game over
+
+commit c3fadfac7322a7b1086b43496d4cf6118fc02d83
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 15 01:19:36 2022 +1100
+
+    refactored save/load for variable board size and player count
+
+commit e016f20e61b491b3f291ef93672ff840f4f5a378
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Mon Feb 14 23:57:39 2022 +1100
+
+    moved player and board selection to new options function under Qwirkle.cpp
+
+commit fd851b0bbeddbba2fc333a5063908315fade01fd
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Mon Feb 14 21:37:55 2022 +1100
+
+    added multiplayer
+
+commit 6bc62380ee9f0f664de89ac2d67b230df24db0b1
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 9 06:56:40 2022 +1100
+
+    can now read board dimensionsions from save, added error message, fixed logic errors
+
+commit 871ca74b3bc87171799305bece299e62b77e9e8b
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 9 05:06:42 2022 +1100
+
+    refactored code to remove linked list iterators
+
+commit 2dae9947b41d76c4b01f42179b996229f7d013b5
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 9 02:57:57 2022 +1100
+
+    implemented new tile swapping functions
+
+commit 83048814d378c987826d57253237ddf1df7c4942
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 9 00:04:51 2022 +1100
+
+    refactored game to no longer use 'Node' class
+
+commit 1e7477190c35c582c428d544569631ca91af4e85
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 8 16:36:20 2022 +1100
+
+    FIRST UPDATE OF FORK
+
+commit 207362075f4ee1fc837df11785d8876f899181f1
+Merge: da66785 a4d3371
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sun Feb 6 19:34:24 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2
+
+commit da66785f4c478f754671dbef9c85839ade7289d1
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sun Feb 6 19:34:06 2022 +1100
+
+    adding emptyTileBag.output
+
+commit a4d337183fbe04be2ea409feb0e75d0addb4a5c2
+Author: s3884660 <75563047+s3884660@users.noreply.github.com>
+Date:   Sun Feb 6 16:32:32 2022 +0800
+
+    add group update
+
+commit cdd8fb349abf8769c55494bd410a803fd12c3956
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 19:16:45 2022 +1100
+
+    adding comments and tidying clearScreen()
+
+commit c0a4a105113a270fb53635436bb6d745cc812e14
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sun Feb 6 19:15:36 2022 +1100
+
+    fixed saving on first turn
+
+commit 196a261036744bba44a902bcc6319f27b6041b06
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 18:49:21 2022 +1100
+
+    fix for duplicate tile error bug
+
+commit dcba4c61ebd60e12e2550e86cb97366ffa7daad2
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 18:27:47 2022 +1100
+
+    testing fixes for duplcate error
+
+commit 550e769eb8e273c0d3fdc69c54f7181dc315711e
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 17:37:08 2022 +1100
+
+    relocating checks to relevant functions
+
+commit 0ff70054fae3a3a0a9b6903dbcd24dc1e355c55a
+Merge: d618f9e 00e20f5
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Feb 6 17:30:14 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit d618f9e3d6a6187f8adddae1329fedb08424cbe1
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Feb 6 17:30:09 2022 +1100
+
+    fixed name input bug and removed redundant goodbye when quitting with EOF
+
+commit 00e20f5e1ead0e6caee2a49580e750e3e91f9a6b
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Feb 6 14:24:50 2022 +0800
+
+    derp on header
+
+commit 5a87f73f45f47febff498f686f305dc10ee908dd
+Merge: 7457525 ad4956b
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Feb 6 14:22:54 2022 +0800
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit 7457525efe36a69b2fc1686cec60d6034a2bb61a
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Feb 6 14:22:51 2022 +0800
+
+    end game if no tiles in hand
+
+commit ad4956b405cb6a3ac1734255a55c6540cc9c2154
+Merge: 137d87e 77f60eb
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Feb 6 17:14:46 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit 137d87efa0ef867c49bd48e3e08ba8f2dfaec291
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Feb 6 17:14:44 2022 +1100
+
+    more test cases
+
+commit 77f60eb0a65272e5f30c368099bc20af1d454673
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Feb 6 14:13:17 2022 +0800
+
+    fix for empty tilebag at end of game
+
+commit c5533b5724a02cda01cb1c0f9c5450b8403b1f08
+Merge: 03c9b00 a2be362
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Feb 6 16:54:47 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit 03c9b00fa8db824b8058723f9e71684498d41b22
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Feb 6 16:54:45 2022 +1100
+
+    saveGame test added
+
+commit a2be3621087f7168f1c648d163c0ec5acf4814c9
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sun Feb 6 16:35:12 2022 +1100
+
+    fixed emptyTileBag test
+
+commit 1b03dbdbff396378a6f6cf699ae741b68332a304
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Feb 6 16:22:01 2022 +1100
+
+    fixed placeTile and added replaceTile test cases
+
+commit caf3b87d79365b2f95cb1db591ea10b455ca08d5
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 15:48:26 2022 +1100
+
+    wrong error message being used for duplicate check
+
+commit 9a8f74daa404dae168f9cdf3a765fbbb33664138
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 15:47:24 2022 +1100
+
+    added rule to prevent duplicate tiles being placed in the same line
+
+commit 6765d9a8a17875cba9808fe6f8a03b1f48354bba
+Author: kylewinfield <62064632+kylewinfield@users.noreply.github.com>
+Date:   Sun Feb 6 14:30:43 2022 +1100
+
+    Added emptyTileBag.save
+
+commit a7ae0116a6b970f39390636751d80fbf99ca5ddb
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sun Feb 6 13:36:52 2022 +1100
+
+    added/updated test cases
+
+commit 51faf1a24ffc9decbf3bd00622ed490a5047a1a8
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sun Feb 6 13:35:25 2022 +1100
+
+    added/updated test cases
+
+commit c5279b698b5601fe995d10fd50e418a8f56bf06c
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 11:11:19 2022 +1100
+
+    fixed bug preventing player1's turn
+
+commit 90b276c24748e0189757440f723e31a32797ebb0
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 10:31:11 2022 +1100
+
+    clearing unnecessary files
+
+commit 1ba89ea793c0a484ba278e27f844e0f80bdffaac
+Merge: 45e80e0 ebb285f
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 10:28:40 2022 +1100
+
+    fixed bug where first tile was always R1
+
+commit 45e80e0543fac58eec8f7fa59af201ae3a860873
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Feb 6 10:27:11 2022 +1100
+
+    fixed bug causing first tile to always be R1
+
+commit ebb285fc8d289215399b23b2862adad2138a9117
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 18:29:55 2022 +1100
+
+    segFault Fix
+
+commit 05351f02024f926cff45ccb3659c2da3b966703c
+Author: s3884660 <75563047+s3884660@users.noreply.github.com>
+Date:   Sat Feb 5 15:00:51 2022 +0800
+
+    new game test
+
+commit cffe0d111adb50fba4c7b8833cc8b5e7e1bdf677
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 13:12:24 2022 +1100
+
+    added Save and Test folders and placeTile test
+
+commit fc9eb96fa11cf43ac9e229070e5bab3fa29c3723
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 11:32:21 2022 +1100
+
+    fixed 'save' prompt issue - player can save and play in the same turn
+
+commit 10e05c034729e8e96776da1709401a85115198e5
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 11:18:58 2022 +1100
+
+    fixed load() issue, now able to load empty board
+
+commit 93dd98224243cf2faf66523932a41566f5a3fedd
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 10:16:22 2022 +1100
+
+    fixed invalid input line when loading
+
+commit 1813eb34371000f06fbd7f4655142dd5b3dd59e6
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 09:19:30 2022 +1100
+
+    update
+
+commit d76305f0ab389a52ed4ce97829a0c732df26354d
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 09:18:33 2022 +1100
+
+    update
+
+commit d21d0633b65d95d63660df517e1aada6753ac062
+Merge: 43156fc 18299f4
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 09:16:41 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit 43156fc4ddd50208ad29a46aa1e478c4156760ec
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sat Feb 5 09:15:32 2022 +1100
+
+    commit to pull
+
+commit 18299f4eb057ca89f44af9750f34684b004b6e5e
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Fri Feb 4 17:45:23 2022 +0800
+
+    input validation
+
+commit 8bbbf69131202bc91427f850c6a25a099ea0b5a4
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Fri Feb 4 20:04:53 2022 +1100
+
+    changed so player 1 is first
+
+commit 51a60b9b89df37196e8eed2019a7741a2f36b14c
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Fri Feb 4 19:57:41 2022 +1100
+
+    fixed player turn in load/save
+
+commit 86fd8a520e264b1c3641281da2e8ee31a908831e
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Fri Feb 4 19:48:24 2022 +1100
+
+    removing redundant functions etc
+
+commit 95fb2b5deb2c9318a9ef6062d614d1726c541a91
+Merge: c420d3f ee3a26e
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Fri Feb 4 19:44:39 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit c420d3fce8ff611b604a32d196112a684023b5d8
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Fri Feb 4 19:44:18 2022 +1100
+
+    fixed column out of range issue
+
+commit ee3a26e53f1a70cdb6c2c0270cfe5166af4dca66
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Fri Feb 4 19:41:21 2022 +1100
+
+    tidying and relocating bools
+
+commit ab3b10ccb19c95e18f5d060fe70422c09956a48a
+Merge: 626eccb 84c93ad
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Fri Feb 4 18:43:50 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit 626eccbbf316fdf78bec95684c0d4995c6adc27e
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Fri Feb 4 18:43:36 2022 +1100
+
+    added EOF to all user prompts
+
+commit 84c93ad18062c7a9702a72ebce566dc9956f2974
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Fri Feb 4 17:24:31 2022 +1100
+
+    minor formatting
+
+commit d5d2cf955067f7b9c8417c83e5f1ea279cce7d3b
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Fri Feb 4 16:19:07 2022 +1100
+
+    curent player turn functionality with load/save
+
+commit fb4c180b01e01e8221a02487d3528991967389ba
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Fri Feb 4 05:58:40 2022 +1100
+
+    tidying etc.
+
+commit 89e09495d5bd3255e09b9685c3e9de70c84eb423
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Fri Feb 4 05:31:25 2022 +1100
+
+    fixed tile checking bug and implemented forfeit turn/game over functionality
+
+commit 30e526b75f4cd7e3ec0ba8adcb2421de632a3fbf
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Thu Feb 3 22:22:53 2022 +1100
+
+    minor comment tidying. The check for adjacent tiles is also currently commented out
+
+commit 4795557690d04c103e5b1d01aa0225135c8e295e
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Thu Feb 3 22:05:58 2022 +1100
+
+    fixed (I hope?) segmentation fault in checkForPlayableTiles() function
+
+commit 1c3506a8c2a8c1470881fb684cfa96c85ce9fc18
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Thu Feb 3 21:11:46 2022 +1100
+
+    fixed bug where error status was not reset after running checkForPlayableTiles() function
+
+commit 13da020b7114b22d195a2227b676fff436749f9b
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Thu Feb 3 16:53:18 2022 +1100
+
+    fixed main menu and added quit
+
+commit eea5528b2af77eb0f37bb1f000087d6c329a890e
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Thu Feb 3 16:47:22 2022 +1100
+
+    getHand function implemented to use playerhand in Game.cpp
+
+commit 123b8bbdfa9517f0d2bbcf4a58a63aeede1af0a2
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Thu Feb 3 14:26:04 2022 +1100
+
+    added more input validation for userPrompt
+
+commit ca0a6389d801e2fadd4258534025ccb684cd3d83
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Thu Feb 3 14:10:12 2022 +1100
+
+    made user prompt for tiles and coords case insensitive
+
+commit 2736fb6de4855e1aa8eb3a78539eaec940451089
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 2 23:17:12 2022 +1100
+
+    tidying and removing duplicates
+
+commit 9821d357e4785b037567a961bcc65293434ecff7
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 2 23:06:25 2022 +1100
+
+    formatted errors and user prompts for additional clarity
+
+commit 9e5fadc468a619b8a211a0dd30ecc8f5fcce1559
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 2 22:37:07 2022 +1100
+
+    moved all error messages to new separate function
+
+commit 1d3caf9be5c5ca00224ae805cc52509ce242bdc1
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 2 21:47:51 2022 +1100
+
+    fixed bug allowing tiles to be placed around edges without being next to a tile
+
+commit ebbfb2fb987510a91948f5c73c0050359c9cef15
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 2 20:47:16 2022 +1100
+
+    display error message to player explaining why move failed
+
+commit 7a785fcf86bc3263cb904ef5f86b3aac2f55b727
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Feb 2 20:05:41 2022 +1100
+
+    added message when player scores a 'Qwirkle'
+
+commit 7eab7bb5bc1063962bbe2a40d692563fba9cf1bc
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Wed Feb 2 11:11:15 2022 +1100
+
+    fixed double digit coords input issue
+
+commit 7a2f87921bdc906c60f8156d716f17b9c35ade26
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 1 23:35:30 2022 +1100
+
+    minor logic correction
+
+commit 9aeba3ae2420301223667dcdd463b637f4cd3e3a
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 1 23:29:01 2022 +1100
+
+    added method to check if a list contains playable tiles
+
+commit adde799b345a8b3c0d64cdabe6d6b1f6f39141b2
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Feb 1 21:35:12 2022 +1100
+
+    Cleaned up display and added method to clear screen after player turn
+
+commit e496a64d69aca4e841d436d80d3e3e650b29e20f
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Tue Feb 1 16:30:20 2022 +0800
+
+    fix row A
+
+commit d1eefdc3e8fd689a016606f71099ada17df3fe48
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Mon Jan 31 22:35:40 2022 +1100
+
+    gameOver loop fixed
+
+commit afeb4636ff00f712b2666b92a11796a604258a20
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Mon Jan 31 22:20:35 2022 +1100
+
+    fixed issue with seg fault when selecting last element of hand
+
+commit 50cff08504c709775adf157656b941da1b59f3eb
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Mon Jan 31 21:06:39 2022 +1100
+
+    quick fix to get scoring working again
+
+commit 5abf187bb967f4fb6085111dc6fd97c974e1b14b
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Mon Jan 31 20:55:13 2022 +1100
+
+    adjusted getPrompt() and player->checkTile(), and implemented game loop
+
+commit f3148bba2ee63211cc332bc4823fa6c48ac3ce0a
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Mon Jan 31 18:31:24 2022 +1100
+
+    initialised gameLoop() for new games and loaded games
+
+commit f29e7cc04d99513343a4f486e2ad8ad63b849a2f
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Mon Jan 31 18:18:08 2022 +1100
+
+    added game loop function
+
+commit a7dbf21b26f8e73e4f1149c3379ffce9b9f7709c
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 30 22:17:46 2022 +1100
+
+    fixes
+
+commit 44d10b65c73a376089884a4ce94ee391191000c4
+Merge: 75ee0d5 82b6785
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 30 21:47:49 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit 75ee0d53e7f77a712c3ca451c8031ee2b4bf34c4
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 30 21:47:26 2022 +1100
+
+    binary files
+
+commit 82b678579bd38e80579c2ced8e370907fbe87c35
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Jan 30 16:32:30 2022 +0800
+
+    game loop and score implemented
+
+commit 3ed01fb0e4a9ca9825a9a71bb30ea9681a610f1a
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Jan 30 16:17:49 2022 +0800
+
+    make board work
+
+commit 96800ac7e8714a5dc2110305a480e7993c1f0f0e
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Jan 30 16:09:28 2022 +0800
+
+    work on player hand
+
+commit 30306e5be958e81f76e3c4731e4711a76a3fbaaf
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 30 18:52:46 2022 +1100
+
+    Fixed Z board issue and added gameOver flag variable for game loop
+
+commit c71dc24fb6343eb27ab7ce5118219cffa71dd309
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Jan 30 11:30:54 2022 +0800
+
+    replcae tile working
+
+commit 65c06e67c155eac80b95906b6a9d69f1da45a117
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Jan 30 11:21:50 2022 +0800
+
+    playing tile gives segfault, can't work out why - in "placeTile" method"
+
+commit 50e8bfc32210180db92b3b083351650c2cfbbd03
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Jan 30 11:09:15 2022 +0800
+
+    Check tile implemented, working on populating player hands and board
+
+commit d8a9b38dd4da3b18085876af19a9731fc8ac0e15
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 30 12:26:08 2022 +1100
+
+    One round works for 2 players. Board breaks when multiple rounds or invalid input - TO FIX
+
+commit 832779707efda7b0c45c4c803b455c2c7a59d19b
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 30 11:26:33 2022 +1100
+
+    FIXED segmentation fault when deleting head of linked list
+
+commit c091ac3f8a3f229f6cfdb9c9686af961fc0a0cf7
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 30 10:29:05 2022 +1100
+
+    implemented replace() and got place to work. minor fixes TODO
+
+commit daf528f01007ad09ee3fbccc5fb0f9a349064362
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 30 09:41:02 2022 +1100
+
+    added code to populate player's hands
+
+commit 2a5061ab27073f04d9626aa506974c0c26e11535
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sat Jan 29 03:29:17 2022 +1100
+
+    some commenting for function added
+
+commit 549b9ecf5d82320ef2b99d43c9ef84a141af7de4
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sat Jan 29 03:17:09 2022 +1100
+
+    fixed reading in board coordinate issue
+
+commit 5853c44628bc8e9b8f1fec471ff669a7440f906c
+Merge: a153897 f736abd
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sat Jan 29 01:33:56 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2
+
+commit a15389739ec693b1263151e3c7be55025e99b7ef
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sat Jan 29 01:33:47 2022 +1100
+
+    load/save game is implemented, still 1 limitation
+
+commit dcab5de9d2ccb32de93edf29c417f57d7a194e86
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Sat Jan 29 01:28:46 2022 +1100
+
+    load/save game is implemented, still one limitation though
+
+commit f736abd3cdf890a7ebb10e7a1f91463e94583f1a
+Merge: 9a25924 9648da7
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Fri Jan 28 09:24:12 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit 9a25924afa08f6566f9814dc462bb4ea39f39d93
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Fri Jan 28 09:22:58 2022 +1100
+
+    Changes
+
+commit 9648da7cd91ba01bee0e72cba96f53f31926699d
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Fri Jan 28 03:00:39 2022 +1100
+
+    added calculate score function
+
+commit 8e577956a281571befa2df8e8344c7a414060ea7
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Fri Jan 28 02:41:35 2022 +1100
+
+    clarity to some comments
+
+commit da13d51fbb71498b86d64598ded9561759a00087
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Thu Jan 27 17:25:03 2022 +0800
+
+    Player class implementation
+
+commit f16ddf18d75d62172f64bc7ed7208f55647e1b6f
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Thu Jan 27 09:24:39 2022 +1100
+
+    Added game logic for replace function
+
+commit c8aee4e926a8572fa64821e78b71ace2d76f6f07
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Wed Jan 26 21:41:00 2022 +1100
+
+    Implemented player in user prompt logic
+
+commit 881870b5fee3a310323d6639ac61189185302ebb
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Wed Jan 26 06:45:31 2022 +1100
+
+    Added methods to read save file in
+
+commit edb9ee782b84eeaaa20c867eb36e4a0d3dfa63cb
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Jan 26 01:35:53 2022 +1100
+
+    removed redundant function definition
+
+commit f546afdffa2dda2ce7f293aa44f97f869e16349a
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Wed Jan 26 01:29:37 2022 +1100
+
+    added game logic for tile palcement on board
+
+commit a860285e72824f3223f9347af67a25dd9eb0ff0e
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 18:51:00 2022 +1100
+
+    resolved conflicts
+
+commit 9c7edad6753bfdce350ac067116fca25ecf6b97b
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 18:43:21 2022 +1100
+
+    I hate merge conflicts
+
+commit 6c4198e67664ec41b8a31ce5fb255fa3c42410bc
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 18:33:52 2022 +1100
+
+    added note
+
+commit 220083b740dec3f45b8f06aebd726ffa5092ccdb
+Merge: ea43d03 923fd01
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 18:27:49 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit ea43d0300743f289698c1d67a7cc5f1e4f06454b
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 18:26:33 2022 +1100
+
+    added note
+
+commit 923fd014ee8ec6ea812423c3964d36e79482c660
+Merge: f6d774f 58083f9
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Tue Jan 25 18:24:40 2022 +1100
+
+    Merged branches and solved conflicts
+
+commit f6d774f45359a28a6f8abb87f2320dcf9d53ff57
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Tue Jan 25 18:21:21 2022 +1100
+
+    added comments for game logic
+
+commit 58083f94c1670e9dfaf0e2cefea998d00909c56f
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 18:14:11 2022 +1100
+
+    reinstated 'getTile()' function to read tiles without placing them
+
+commit 2c441d87d5d95744cf62cf70849903c97d51f199
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 17:48:11 2022 +1100
+
+    laid out structure for gaime logic
+
+commit 2348c406e72717dbfcfcc87171d614973943ef76
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 15:37:55 2022 +1100
+
+    comments for clarity
+
+commit 57d7b3e5f9a428df6b388a7d94e561f060cda003
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 15:28:50 2022 +1100
+
+    updated Makefile to include new Game.cpp class
+
+commit bfffaa3939786cc3949148a45b7742b538314d05
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 15:24:08 2022 +1100
+
+    merged user prompt methods into Game.cpp class
+
+commit 11e44e05f90fdae140cdcaf1cb2ea2bf6b31583f
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 15:14:38 2022 +1100
+
+    removed duplicate method from Qwirkle.cpp
+
+commit 6307f626b1cf4f1f65643b538350f7b0ffe988ab
+Merge: a9abde4 1a30f09
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 15:08:48 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit a9abde4106a11f703e2a0687e028a922250e0ab1
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 15:03:06 2022 +1100
+
+    created Game.cpp class and moved game functions there
+
+commit 1a30f09ecc0bc0b50e71e6b1478b94d62a20882a
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Tue Jan 25 14:55:11 2022 +1100
+
+    quick fix
+
+commit 477fd6ece81d9a6247af608caf0768e017779cab
+Merge: 6f320a1 4ee50d6
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Tue Jan 25 14:54:20 2022 +1100
+
+    Merge branch 'main' of https://github.com/s3884660/APTA2 into main
+
+commit 6f320a11662c22c5440ffaaad60837d4736ed12a
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Tue Jan 25 14:51:58 2022 +1100
+
+    user prompt function implemented and working
+
+commit 4ee50d6bd38ed6979e8c10a82225ca7f50f90f34
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Tue Jan 25 14:23:17 2022 +1100
+
+    tidying etc
+
+commit 2fc15f3f0ff90c33eddd19ab3d1402856eeb7520
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Tue Jan 25 11:45:34 2022 +1100
+
+    formatted random function
+
+commit 608b44ab397423ec9ec524e0cca04a5305104bc1
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Tue Jan 25 11:43:55 2022 +1100
+
+    fixed Random engine to produce a different output each time it runs
+
+commit a2f24252167972fe17a89e6b514f5e6fd579fdb4
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Mon Jan 24 06:45:50 2022 +1100
+
+    Added starter save game method
+
+commit 553095d028f312a7aa761160e65debe1cda1accf
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Jan 23 17:03:53 2022 +1100
+
+    tidying
+
+commit 48654dd6c1e68979097ac6550d9ba106def4a7ee
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Jan 23 16:50:40 2022 +1100
+
+    added function to transfer nodes between linked lists
+
+commit 8d1501854c1f79b7465322947ae714e36a2190e7
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sun Jan 23 16:21:31 2022 +1100
+
+    moved tile bag to global scope
+
+commit 5ed882f4eb4c5ee722e7448b043598cc17981866
+Author: s3884660 <s3884660@student.rmit.edu.au>
+Date:   Sun Jan 23 10:33:51 2022 +0800
+
+    Creation of player.h (cpp not yet made)
+
+commit 98d1b43dd8a8c15af3f2c17c9df9245089a0ecc3
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Sun Jan 23 00:39:21 2022 +0400
+
+    Board vector implemented
+
+commit a348a70aff3ac26e6ac13a904a6ddf4a7976d98a
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sat Jan 22 23:21:24 2022 +1100
+
+    implemented tile bag linked list and fixed linkedList.cpp deconstructor
+
+commit 5f2bd29b4827304f49106d5081d5ccead29369c6
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sat Jan 22 20:52:16 2022 +1100
+
+    forgot to increment list after adding -> fixed
+
+commit 9ff595bab80cecfdc3675809c265959c37eff367
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sat Jan 22 20:49:39 2022 +1100
+
+    added function to add node to specific location in list and fixed bugs/memory leak
+
+commit 850b4ed9adedd10523cfe83adfa16f8251e7b521
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sat Jan 22 17:58:12 2022 +1100
+
+    fixed delete node bug when only one node was added - take 2
+
+commit 3a2c966f4273c69abbd8dbd47936d1108419c890
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Sat Jan 22 17:55:38 2022 +1100
+
+    fixed delete node bug when only one node was added
+
+commit 6414fc3de143c45f76e4b791130f0c4a677cfcad
+Author: kylewinfield <s3541867@student.rmit.edu.au>
+Date:   Thu Jan 20 15:57:07 2022 +1100
+
+    Added name prompt + validation
+
+commit 0e0499d3767af1099df9abff1e3acc330995a535
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Wed Jan 19 16:54:27 2022 +0100
+
+    added credits
+
+commit 9e8705604e0a697a1c0ad0bf829dd8256763bd13
+Author: Jacopo G <S3876518@student.rmit.edu.au>
+Date:   Wed Jan 19 16:28:21 2022 +0100
+
+    Main menu implemented
+
+commit ec549c3281257b2cacc6fb27b0e1bfa540465461
+Author: Murray <s3862651@student.rmit.edu.au>
+Date:   Mon Jan 17 22:04:36 2022 +1100
+
+    Populated starter code for list and nodes
+
+commit 6731c3b0efb0fa84d4d4d2b7c1cbf70b2617c322
+Author: s3884660 <75563047+s3884660@users.noreply.github.com>
+Date:   Mon Jan 17 15:54:42 2022 +0800
+
+    Starter Code/Repository Creation
